@@ -1,0 +1,64 @@
+Exiting a scope, printing current state of Symbol table
+scope:0
+	Variable: name: result, offset: 12
+	Variable: name: a_variable, offset: 16
+	Variable: name: another_variable, offset: 20
+	Func: name: parent_function startquad:None framelen:None
+scope:1
+	Param: name: param, mode: in offset: 12
+	Func: name: sibling_one startquad:0 framelen:20
+scope:2
+	Param: name: param, mode: in offset: 12
+	TempVar: name: T%0, offset: 16
+Exiting a scope, printing current state of Symbol table
+scope:0
+	Variable: name: result, offset: 12
+	Variable: name: a_variable, offset: 16
+	Variable: name: another_variable, offset: 20
+	Func: name: parent_function startquad:None framelen:None
+scope:1
+	Param: name: param, mode: in offset: 12
+	Func: name: sibling_one startquad:0 framelen:20
+	Func: name: sibling_two startquad:4 framelen:20
+scope:2
+	Param: name: param, mode: in offset: 12
+	TempVar: name: T%1, offset: 16
+Exiting a scope, printing current state of Symbol table
+scope:0
+	Variable: name: result, offset: 12
+	Variable: name: a_variable, offset: 16
+	Variable: name: another_variable, offset: 20
+	Func: name: parent_function startquad:None framelen:None
+scope:1
+	Param: name: param, mode: in offset: 12
+	Func: name: sibling_one startquad:0 framelen:20
+	Func: name: sibling_two startquad:4 framelen:20
+	Func: name: sibling_three startquad:8 framelen:20
+scope:2
+	Param: name: param, mode: in offset: 12
+	TempVar: name: T%2, offset: 16
+Exiting a scope, printing current state of Symbol table
+scope:0
+	Variable: name: result, offset: 12
+	Variable: name: a_variable, offset: 16
+	Variable: name: another_variable, offset: 20
+	Func: name: parent_function startquad:14 framelen:36
+scope:1
+	Param: name: param, mode: in offset: 12
+	Func: name: sibling_one startquad:0 framelen:20
+	Func: name: sibling_two startquad:4 framelen:20
+	Func: name: sibling_three startquad:8 framelen:20
+	TempVar: name: T%3, offset: 16
+	TempVar: name: T%4, offset: 20
+	TempVar: name: T%5, offset: 24
+	TempVar: name: T%6, offset: 28
+	TempVar: name: T%7, offset: 32
+Exiting a scope, printing current state of Symbol table
+scope:0
+	Variable: name: result, offset: 12
+	Variable: name: a_variable, offset: 16
+	Variable: name: another_variable, offset: 20
+	Func: name: parent_function startquad:14 framelen:36
+	TempVar: name: T%8, offset: 24
+Exiting a scope, printing current state of Symbol table
+scope:0
